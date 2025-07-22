@@ -12,6 +12,9 @@ import MyComponent from './component/MyComponent';
 import CounterWithUserInfo from './component/CounterWithUserInfo';
 import Count from './component/Count';
 import Spread from './component/Spread';
+import Props from './component/Props';
+import CustomButton from './component/CustomButton';
+import UseSExa from './component/UseSExa';
 // Create Context
 const CounterContext = createContext();
 
@@ -74,6 +77,15 @@ function App() {
 
 <h2>spreadoprator</h2>
      <Spread/>
+
+
+     <h2>props</h2>
+     <Props name="Dilna"/>
+       <Props name="riva"/>
+       <h2>customecomponent</h2>
+       <CustomButton/>
+       <h2>Dependencies of useEffect</h2>
+       <UseSExa/>
     </>
   );
 }
