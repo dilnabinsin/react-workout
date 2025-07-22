@@ -92,3 +92,5 @@ function Basic() {
 //       <h1>React Toggle Checkbox Example</h1>
 //       <ParentToggle />
 //     </div>
+
+export default Basic
