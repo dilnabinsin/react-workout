@@ -15,6 +15,12 @@ import Spread from './component/Spread';
 import Props from './component/Props';
 import CustomButton from './component/CustomButton';
 import UseSExa from './component/UseSExa';
+import "./app.css"
+import Basic from './component/Basic';
+import ParentToggle from './component/Parent1';
+import Parent1 from './component/Parent1';
+import Checkbox from './component/Checkbox';
+
 // Create Context
 const CounterContext = createContext();
 
@@ -50,7 +56,11 @@ function App() {
     //   <Counter />
     // </CounterProvider>
     <InputExample/>
+<h2>Reading Input Value</h2>
     <Userefinput/>
+   
+
+    {/* ////////////////////////////// */}
     <h2>count11</h2>
     <Count/>
      <h1>React Parent to Child Data</h1>
@@ -66,9 +76,9 @@ function App() {
 <h2> Add Two Numbers on Button Click</h2>
 <AddNumbers/>
 
-<h2>checkbox</h2>
+<h2>checkboxaaaaaaaaaa</h2>
   <Parent />
-
+<h2>checkboxaaaaaaa</h2>
   <h2>Map Over Array of Objects with Styling</h2>
   <ItemList/>
   <h2>Display Message on Component Mount</h2>
@@ -86,6 +96,9 @@ function App() {
        <CustomButton/>
        <h2>Dependencies of useEffect</h2>
        <UseSExa/>
+<Checkbox/>
+ <Basic/>
+
     </>
   );
 }

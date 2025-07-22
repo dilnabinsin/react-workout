@@ -11,18 +11,8 @@ function AddNumbers() {
 
   return (
     <div>
-      <input 
-        type="number" 
-        value={num1} 
-        onChange={e => setNum1(e.target.value)} 
-        placeholder="First number" 
-      />
-      <input 
-        type="number" 
-        value={num2} 
-        onChange={e => setNum2(e.target.value)} 
-        placeholder="Second number" 
-      />
+      <input type="number" value={num1} onChange={e => setNum1(e.target.value)} placeholder="First number"  />
+      <input  type="number" value={num2} onChange={e => setNum2(e.target.value)} placeholder="Second number" />
       <button onClick={handleAdd}>Add</button>
       {sum !== null && <p>Sum: {sum}</p>}
     </div>
