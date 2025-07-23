@@ -1,7 +1,5 @@
 import React, { Component ,useState} from 'react'
 
-
-
 // function Spread() {
 //   const [fruits, setFruits] = useState(['Apple', 'Banana']);
 
