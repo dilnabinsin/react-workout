@@ -47,7 +47,34 @@ import React, { Component ,useState} from 'react'
 
 // export default ItemList;
 
+//object key
 
+
+// import React from 'react';
+
+// function UserDetails() {
+//   const user = {
+//     name: 'Dilna',
+//     age: 22,
+//     city: 'Kochi',
+//   };
+
+//   return (
+//     <div>
+//       <h2>User Details</h2>
+//       <ul>
+//         {Object.keys(user).map((key) => (
+//           <li key={key}>
+//             <strong>{key}:</strong> {user[key]}
+//           </li>
+//         ))}
+//       </ul>
+//     </div>
+//   );
+// }
+
+// export default UserDetails;
+//spreadoperator
 function Spread(){
 
 const [user,setUser]=useState({name:"dilna",age:25})
