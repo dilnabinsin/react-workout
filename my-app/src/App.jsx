@@ -1,4 +1,5 @@
 import { createContext, useContext, useState } from 'react';
+import ReactDOM from "react-dom/client";
 import InputExample from './component/InputExample';
 import Userefinput from './component/Userefinput';
 import ParentComponent from './component/ParentComponet';
@@ -20,6 +21,15 @@ import Basic from './component/Basic';
 import ParentToggle from './component/Parent1';
 import Parent1 from './component/Parent1';
 import Checkbox from './component/Checkbox';
+import Stopwatch from './component/Stopwatch';
+import NestedDropdown from './component/NestedDropdown';
+import SquareCalculator from './component/SquareCalculator';
+import AverageCalculator from './component/AverageCalculator';
+import Toggle from './component/Toggle';
+import ResizeComponent from './component/ResizeComponent';
+import ChangeColor from './ChangeColor';
+import Datafetch from './component/Datafetch';
+//Counter Using useContext
 
 // Create Context
 const CounterContext = createContext();
@@ -48,13 +58,19 @@ function Counter() {
   );
 }
 
-// App Component
+
+
+
+
+
+
+
 function App() {
   return (
     <>
-    // <CounterProvider>
-    //   <Counter />
-    // </CounterProvider>
+    <CounterProvider>
+      <Counter />
+   </CounterProvider>
     <InputExample/>
 <h2>Reading Input Value</h2>
     <Userefinput/>
@@ -99,6 +115,25 @@ function App() {
 <Checkbox/>
  <Basic/>
 
+ <h1>stop watch</h1>
+<Stopwatch/>
+
+
+<h1>nested dropdown</h1>
+<NestedDropdown/>
+<h1>SquareCalculator</h1>
+<SquareCalculator/>
+<h1>AverageCalculator</h1>
+<AverageCalculator/>
+
+<h1>toggle</h1>
+<Toggle/>
+<h1>ResizeComponent</h1>
+<ResizeComponent/>
+<h1>changecolordiv</h1>
+<ChangeColor/>
+<h1>datafetcher</h1>
+<Datafetch/>
     </>
   );
 }
