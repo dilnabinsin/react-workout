@@ -1,6 +1,6 @@
 // Parent.jsx
 import React, { useState } from 'react';
-import Checkbox from './src/component/Checkbox'; // ✅ Import child component
+import Checkbox from './Checkbox'; // ✅ Import child component
 
 function Parent() {
   const [isChecked, setIsChecked] = useState(false);
