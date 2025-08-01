@@ -29,6 +29,15 @@ import Toggle from './component/Toggle';
 import ResizeComponent from './component/ResizeComponent';
 import ChangeColor from './ChangeColor';
 import Datafetch from './component/Datafetch';
+
+
+import Hocomponent from './component/Hocomponent';
+import Withmessage from './component/Withmessage';
+
+const EnhancedHello = Withmessage(Hocomponent);
+
+
+
 //Counter Using useContext
 
 // Create Context
@@ -134,6 +143,10 @@ function App() {
 <ChangeColor/>
 <h1>datafetcher</h1>
 <Datafetch/>
+
+
+
+
     </>
   );
 }
