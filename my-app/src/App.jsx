@@ -32,7 +32,7 @@ import Datafetch from './component/Datafetch';
 
 
 import Hocomponent from './component/Hocomponent';
-import Withmessage from './component/Withmessage';
+import Withmessage from './component/hocsimple';
 
 const EnhancedHello = Withmessage(Hocomponent);
 
