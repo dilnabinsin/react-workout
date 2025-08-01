@@ -1,9 +1,5 @@
 
-
-
 import React, { Component } from 'react'
-
-
 
 function Child1({ checked, onToggle }) {
 

@@ -7,7 +7,7 @@ import InputDisplay from './component/InputDisplay';
 import Timer from './component/timer';
 import MatchInputs from './component/MatchInputs';
 import AddNumbers from './component/AddNumbers';
-import Parent from '../Parentcheckbox';
+import Parent from  "./component/Parentcheckbox"
 import ItemList from './component/ItemList';
 import MyComponent from './component/MyComponent';
 import CounterWithUserInfo from './component/CounterWithUserInfo';
@@ -27,14 +27,14 @@ import SquareCalculator from './component/SquareCalculator';
 import AverageCalculator from './component/AverageCalculator';
 import Toggle from './component/Toggle';
 import ResizeComponent from './component/ResizeComponent';
-import ChangeColor from './ChangeColor';
+import ChangeColor from './component/ChangeColor';
 import Datafetch from './component/Datafetch';
 
 
 import Hocomponent from './component/Hocomponent';
-import Withmessage from './component/hocsimple';
+//import Withmessage from './component/hocsimple';
 
-const EnhancedHello = Withmessage(Hocomponent);
+//const EnhancedHello = Withmessage(Hocomponent);
 
 
 

@@ -11,9 +11,10 @@ const ChangeColor = () => {
   };
 
   return (
+    <div>
     <div
       ref={divRef}
-      onClick={colorchange}
+    //  onClick={colorchange}
       style={{
         width: "100px",
         height: "100px",
@@ -23,7 +24,33 @@ const ChangeColor = () => {
         margin: "20px auto"
       }}
     />
+    <button  onClick={colorchange}>Change Color</button>
+
+    </div>
+     
   );
 };
 
 export default ChangeColor;
+
+
+// import React, { useRef } from "react";
+
+// function BackgroundChanger() {
+//   const divRef = useRef(null);
+
+//   const changeBackground = () => {
+//     divRef.current.style.backgroundColor = "lightblue";
+//   };
+
+//   return (
+//     <div>
+      // <div ref={divRef} style={{ width: "200px", height: "100px", background: "#eee" }}>
+//         Background Box
+//       </div>
+//       <button onClick={changeBackground}>Change Background</button>
+//     </div>
+//   );
+// }
+
+// export default BackgroundChanger;
