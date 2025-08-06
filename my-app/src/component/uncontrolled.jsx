@@ -19,3 +19,11 @@
 // }
 
 // export default UncontrolledForm;
+
+
+// Manipulating Uncontrolled Components
+// const inputRef = useRef();
+
+// const clearInput = () => {
+//   inputRef.current.value = "";
+// };

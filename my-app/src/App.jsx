@@ -32,6 +32,7 @@ import Datafetch from './component/Datafetch';
 
 
 import Hocomponent from './component/Hocomponent';
+import ParentSum from './component/ParentSum';
 //import Withmessage from './component/hocsimple';
 
 //const EnhancedHello = Withmessage(Hocomponent);
@@ -144,8 +145,8 @@ function App() {
 <h1>datafetcher</h1>
 <Datafetch/>
 
-
-
+<h1>sum</h1>
+<ParentSum/>
 
     </>
   );
